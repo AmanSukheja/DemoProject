@@ -18,7 +18,7 @@ public class Test1 extends BaseTest
 	public void testFaceBookHome()
 	{
 		   wait=new WebDriverWait(driver, 20);
-			driver.get("https//google.com");
+			driver.get("https//www.google.com");
 			GooglePO googlePO=new GooglePO(driver);
 			googlePO.searchTxtBx().sendKeys("facebook" +Keys.ENTER);
 			SearchPO searchPO=new SearchPO(driver);
